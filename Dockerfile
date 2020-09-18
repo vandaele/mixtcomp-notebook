@@ -1,4 +1,4 @@
-FROM rocker/binder
+FROM r-base
 
 ## Declares build arguments
 ARG NB_USER
@@ -18,4 +18,5 @@ RUN chown -R ${NB_USER} ${HOME}
 USER ${NB_USER}
 
 ## Run an install.R script, if it exists.
+RUN R --quiet options(repos = c(REPO_NAME = "https://packagemanager.rstudio.com/all/latest"))
 RUN if [ -f install.R ]; then R --quiet -f install.R; fi
