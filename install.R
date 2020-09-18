@@ -1,1 +1,2 @@
-install.packages(c("RMixtComp", "ClusVis"))
+install.packages("RMixtComp")
+install.packages("ClusVis")
