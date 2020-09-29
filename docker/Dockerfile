@@ -4,3 +4,4 @@ RUN echo 'options(repos = c(REPO_NAME = "https://packagemanager.rstudio.com/all/
 
 COPY install.R .
 RUN Rscript install.R
+RUN rm install.R
