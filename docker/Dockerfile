@@ -4,8 +4,3 @@ RUN echo 'options(repos = c(REPO_NAME = "https://packagemanager.rstudio.com/all/
 
 COPY install.R .
 RUN Rscript install.R
-
-COPY . ${HOME}/work
-USER root
-RUN chown -R ${NB_UID} ${HOME}
-USER ${NB_USER}
