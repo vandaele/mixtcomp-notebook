@@ -2,12 +2,11 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vandaele/mixtcomp-notebook/master)
 
-Run a RMixtComp notebook from the cloud using the Binder service by clicking the badge above.
+Run RMixtComp notebooks into the cloud using the Binder service by clicking the badge above.
 
-Follow the instructions below to launch it locally if you need a persistent environment, more computating power.
+If you need a persistent environment and/or more calculation power, follow the instructions in the next section.
 
-
-## Run the notebook locally with Docker
+## Run the notebooks locally with Docker
 
 * Install Docker
 * Clone this repository
