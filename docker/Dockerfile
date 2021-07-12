@@ -1,4 +1,4 @@
-FROM jupyter/r-notebook:612aa5710bf9
+FROM jupyter/r-notebook:r-4.1.0
 
 RUN echo 'options(repos = c(REPO_NAME = "https://packagemanager.rstudio.com/all/latest"))' > .Rprofile
 
