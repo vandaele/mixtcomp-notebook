@@ -1,6 +1,6 @@
 # mixtcomp-notebook
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vandaele/mixtcomp-notebook/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/vandaele/mixtcomp-notebook/master)
 
 Run RMixtComp notebooks into the cloud using the Binder service by clicking the badge above.
 
